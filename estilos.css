@@ -1,0 +1,10 @@
+.navbar {
+    background-color: cornflowerblue; 
+    height: 18vh;
+}
+
+.logo-img {
+    width: 115px;
+    height: 115px;
+    margin-inline: 20px;
+ }
