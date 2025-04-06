@@ -18,3 +18,12 @@ input.caja-texto {
     margin-inline: auto;
     display: block;
 }
+
+.texto-link {
+    margin-top: 20px
+}
+
+.mioffcanvas {
+    background-color: cornflowerblue !important; /*va con !important para sobrecargar el color definido*/
+    color: white !important;
+}
