@@ -27,3 +27,18 @@ input.caja-texto {
     background-color: cornflowerblue !important; /*va con !important para sobrecargar el color definido*/
     color: white !important;
 }
+
+.boton-offcanvas {
+    background-color: white !important; /*va con !important para sobrecargar el color definido*/
+    color: royalblue !important;
+    width: 300px;
+}
+
+.boton-offcanvas:hover {
+    background-color: royalblue !important; /* cambia el color de fondo al pasar el mouse */
+    color: white !important; /* cambia el color del texto al pasar el mouse */
+    transform: scale(1.05); /* aumenta ligeramente el tamaño del botón */
+    transition: all 0.3s ease; /* transición suave */
+    display: block;
+    margin-inline: auto; /* centra horizontalmente */
+}
